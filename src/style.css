@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@300;400;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono&family=Roboto:wght@300;400;700&family=Rubik&family=Tinos:ital@0;1&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: #1C273C;
+}
+.main-heading {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #112D4E;
+  text-transform: capitalize;
+  line-height: 1;
+
+
+}
+.manager {
+  width: 35rem;
+  min-height: 5rem;
+  margin: 5rem auto;
+  padding: 1rem 2rem;
+  background-color: #E5E5E5;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+  border-radius: 2px;
+}
+.form {
+  width: 70%;
+  height: 2rem;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 7px;
+}
+
+.input-task {
+  width: 90%;
+  height: 100%;
+  background-color: #DBE2EF;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  border: none;
+  padding: .5rem;
+}
+.input-task:focus {
+  outline: none;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #AAAAAA;
+  width: 10%;
+  height: 100%;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+.icon-add {
+  width: 2rem;
+  height: 2rem;
+  fill: #E5E5E5;
+}
+.todo-list {
+  width: 100%;
+  margin: 1rem auto;
+  min-height: 0rem;
+  /* border: 1px solid red; */
+  list-style: none;
+}
+.task {
+  width: 90%;
+  height: 2rem;
+  background-color: #DBE2EF;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0rem 1rem;
+  color: #112D4E;
+}
+.task:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.checkbox {
+  margin-right: .5rem;
+}
+.btn-clear {
+display: flex;
+justify-content: center;
+  text-decoration: none;
+  color: #112D4E;
+}
+.btn-clear:hover {
+  text-decoration: underline;
+}
